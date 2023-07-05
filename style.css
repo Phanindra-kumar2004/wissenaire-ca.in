@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+
+    
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+hr{
+    border-style: double none none;
+    color: rgba(0,0,0,0.2);
+    border-color: white;
+    line-height: 5px;
+    
+}
+@media screen and (max-width: 850px) {
+    div.card{
+        width: 40%;
+    }
+    div.icards{
+        width: 350px ;
+        margin: auto 25%;
+        font-size: 110%;
+    }   
+    div .maintext{
+        width: 100%;
+    } 
+    div.navbar{
+        font-size: 80%;
+    }
+    .logo{
+        width: 15%;
+    }
+}
+
+.btn1 .btn2{
+
+    justify-content: space-between;
+    height: 35px;
+    padding: 5px;
+    width: 35px;
+    background-color: rgba(0,0,0,0);
+    border-color: #0d78ae;
+    border-width: 3px;
+    
+}
+div.btn1 div{
+    margin: 6px 0;
+    height: 5px;
+    justify-content: center;
+    background-color: #0d78ae;
+}
+.firstpic{
+    background-image: url("dynamic_wireframe_particle_landscape_background.jpg");
+    background-position: 0%;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+}
+.logo{
+    width: 13%;
+
+}
+.navbar{
+    font-size: 120%;
+    margin-top: 25px;
+    padding: 0 5% 0 5%;
+    width: 95%;
+    color: white;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    align-content: center;
+    justify-content: center;
+}
+.navbar nav a{
+    padding: 0 0 0 4%;
+    position: relative;
+    bottom: 27px;
+    color:white;
+    text-decoration: none;
+    transition-delay: 0.5s;
+}
+.navbar nav :hover{
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(232, 236, 240);
+}
+.carrier1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding: 15% 0 0 0;
+    justify-content: space-around;
+}
+.maintext{
+    height: 40%;
+    width: 70%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.ca{
+    font-size: 4rem;
+    color: rgb(28, 
+    
+    
+    
+    104, 235);
+}
+.wiss{
+    font-size: 2.7rem;
+    margin-top: 5rem;
+    color: rgb(124, 175, 233);
+}
+.apply {
+    
+    padding-left: 0%;
+    margin-top: 7%;
+
+}
+.apply button{
+    border-radius: 20px;
+    background-color: rgba(3, 79, 210,0);
+    border-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+    
+    
+}
+.apply button a {
+    color: rgb(197, 162, 45);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.apply button a h1{
+    padding: 0 10px;
+}
+.apply  :hover{
+    border-radius: 15px;
+    background-color: rgba(197,162 ,45 ,1);
+    color: rgba(0,0,0,0);
+    text-shadow: 1px 0 black;
+    font-weight: 350;
+
+}
+#aboutus {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.carrier {
+    font-family: "Exo SemiBold Italic";
+    align-self: center;
+    /* float: left; */
+    width: 100%;
+    font-size: 0.75rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    align-content: center;
+}
+.headings{
+    font-size: 4rem;
+    font-weight: 300;
+    color: #0d78ae;
+}
+.information {
+    color: rgb(187, 188, 206);
+    font-size: 1.5rem;
+    padding:10% 0 0 10%;
+    width: 80%;
+    font-family: sans-serif;
+}
+.responsibility{
+    /* background-color: rgb(31, 69, 117); */
+    background-image: linear-gradient( to bottom right,rgb(0, 22, 49),rgb(24, 54, 90),rgb(61,99,147) );
+    box-shadow: 10px 20px 10px rgba(13, 120, 174, 0.664) ;
+    height: 150%;
+}
+#respons{
+    text-align: center;
+    color: rgb(211, 155, 35);
+    padding-top: 5rem;
+    text-shadow: 4px 4px 5px rgb(66, 101, 204);
+    font-weight: 550;
+}
+.rcontent{
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 2%;
+    gap: 18px;
+    justify-content: center;
+}
+.card{
+    width: 280px;
+    min-height: 300px;
+    background-image: linear-gradient( to bottom right,rgb(2, 49, 131) 75% ,rgb(53,129,255) );
+    border-radius: 30px 80px;
+    box-shadow: 5px 10px 15px black;
+    align-content: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.card img{
+    max-width: 80%;
+    max-height: 35%;
+    justify-self: center;
+    border-radius: 15px 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.card p{
+    padding: 20px;
+    color: darkgrey;
+    font-size: x-large;
+    font-weight: normal;
+    text-align: center;
+
+}
+.incentives{
+    margin: 12% 0 6%;
+    width: 100%;
+}
+.icards{
+    width: 250px ;
+    border-radius: 80px 30px;
+    box-shadow: 5px 10px 5px black;
+    align-content: center;
+    margin: 30px;
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    align-content: center;
+}
+/* .incentives .cards , .icards{
+    /* box-shadow: 10px 15px  0px 10px rgb(24, 54, 90); 
+} */
+.icards img{
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 40px 15px;
+}
+.icards img {
+    background-color: rgba(3, 79, 210,0.35);
+    box-shadow: 10px 10px 150px 10px rgba(3, 79, 210,1);
+}
+.icards h3{
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+#incent{
+    text-align: center;
+    font-size: 2rem;
+}
+.contact{
+    margin-top: 5%;
+    padding-top: 6%;
+    background-color: rgba(3, 79, 210,0.35);
+    text-align: center;
+}
+#chead{
+    font-weight: 700;
+    font-size: 4rem;
+    color:rgb(158, 189, 241);
+    text-shadow: -5px 0px black ;
+    padding-bottom: 30px;
+}
+.num h3{
+    padding: 20px;
+    color:rgb(158, 189, 241);
+    font-size: 2.8rem;
+}
+.clogo{
+    width: 100%;
+    background-color: rgb(1, 16, 43);
+}
+.clogo ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+.contact p{
+    font-size: 1.5rem;
+}
+.contact p a {
+    color: rgb(124, 175, 233);
+}
+.clogo ul li img{
+    width: 50px;
+}
